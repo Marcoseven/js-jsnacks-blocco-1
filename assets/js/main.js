@@ -12,3 +12,35 @@ Consigli:
 
 Ripetete quando sopra per ciascuno snack.
 */
+
+/* JSnacks 1 */
+// variabili
+const numUser_1 = prompt("Inerire un numero?");
+const numUser_2 = prompt("Inerire un altro numero?");
+const msg = document.getElementById("JSnacks_1");
+
+// console.log
+console.log(numUser_1, numUser_2);
+
+// condizionale if
+if (numUser_1 > numUser_2) {
+	console.log(
+		"Il primo numero inserito è maggiore del secondo numero inserito"
+	);
+	msg.innerHTML =
+		"Il primo numero inserito è maggiore del secondo numero inserito";
+} else if (numUser_1 < numUser_2) {
+	console.log(
+		"Il secondo numero inserito è maggiore del primo numero inserito"
+	);
+	msg.innerHTML =
+		"Il secondo numero inserito è maggiore del primo numero inserito";
+} else {
+	console.log("Il primo e il secondo numero inserito sono pari");
+	msg.innerHTML = "Il primo e il secondo numero inserito sono pari";
+}
+/* /JSnacks 1 */
+
+/* JSnacks 2 */
+
+/* /JSnacks 2 */
